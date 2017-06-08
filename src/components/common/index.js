@@ -4,6 +4,7 @@ import CardSection from './CardSection'
 import Button from './Button'
 import Input from './Input'
 import Spinner from './Spinner'
+import Confirm from './Confirm'
 
 export{
 	Header,
@@ -11,5 +12,6 @@ export{
 	CardSection,
 	Button,
 	Input,
-	Spinner
+	Spinner,
+	Confirm
 }
