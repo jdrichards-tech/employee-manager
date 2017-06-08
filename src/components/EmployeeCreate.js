@@ -3,6 +3,7 @@ import { Text, Picker } from 'react-native'
 import  { Card, CardSection, Input, Button } from './common'
 import { connect } from 'react-redux'
 import actions from '../actions/employeeActions'
+import EmployeeForm from './EmployeeForm'
 
 class EmployeeCreate extends Component{
 
@@ -14,7 +15,7 @@ class EmployeeCreate extends Component{
 	render(){
 		return(
 			<Card>
-
+				<EmployeeForm {...this.props} />
 
 				<CardSection>
 					<Button

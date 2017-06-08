@@ -13,5 +13,6 @@ export default{
 
 	EMPLOYEE_UPDATE: 'employee_update',
 	EMPLOYEE_CREATE: 'employee_create',
-	EMPLOYEES_FETCH_SUCCESS: 'employees_fetch_success'
+	EMPLOYEES_FETCH_SUCCESS: 'employees_fetch_success',
+	EMPLOYEE_SAVE_SUCCESS: 'employee_save_success'
 }

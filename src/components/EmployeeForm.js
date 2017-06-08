@@ -40,7 +40,7 @@ class EmployeeForm extends Component{
 					<Picker.Item label="Wednesday" value="Wednesday" />
 					<Picker.Item label="Thursday" value="Thursday" />
 					<Picker.Item label="Friday" value="Friday" />
-					<Picker.Item label="Saturday" value="Monday" />
+					<Picker.Item label="Saturday" value="Saturday" />
 					<Picker.Item label="Sunday" value="Sunday" />
 				</Picker>
 			</CardSection>
@@ -51,7 +51,7 @@ class EmployeeForm extends Component{
 
 const styles = {
 	pickerTextStyle: {
-		
+
 		fontSize: 18,
 		paddingLeft: 20
 	}
